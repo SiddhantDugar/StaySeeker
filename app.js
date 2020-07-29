@@ -20,7 +20,8 @@ var commentRoutes    = require("./routes/comments"),
 const mongoose = require('mongoose');
 mongoose.connect('mongodb+srv://siddhant:siddhant123@cluster0.7yyxa.mongodb.net/siddhant?retryWrites=true&w=majority', {
   useNewUrlParser: true,
-  useUnifiedTopology: true
+  useUnifiedTopology: true,
+  useCreateIndex: true
 })
 .then(() => console.log('Connected to DB!'))
 .catch(error => console.log(error.message));
