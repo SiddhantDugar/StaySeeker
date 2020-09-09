@@ -1,4 +1,4 @@
-## STAYSEEKER
+## STAYSEEKER 🏠
 StaySeeker is a web app that facilitates users to create and view homestays and vacation rentals. Users can post homestays with a name, price, image and description and also review other homestays and give them a rating.
 
 The application follows REST paradigm, RWD techniques and was created using MEN(MongoDB,ExpressJS,Node.js) stack, with EJS as a view engine.
