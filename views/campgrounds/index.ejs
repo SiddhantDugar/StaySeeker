@@ -3,8 +3,9 @@
 
         
          <div class="container special">
-             <p>WELCOME TO STAY SEEKER!</p>
-             <div class="ft"><p>Hand-picked rentals and homestays from all over the world</p></div>
+             <div class="head"><p>WELCOME TO STAY SEEKER!</p>
+                <div class="ft"><p>Hand-picked rentals and homestays from all over the world</p></div></div>
+             
              <p>
                 <a class="btn button_slide1 slide_right" href="/campgrounds/new">Add New Homestay</a>
              </p>
@@ -30,7 +31,7 @@
                 <div class="thumbnail">
                    <img class="imgs" src="<%= campground.image %>">
                     <div class="caption">
-                        <h4><%= campground.name %></h4>
+                        <h5><%= campground.name %></h5>
                         <% if (campground.rating === 0) { %>
                         <em>No reviews yet.</em>
                         <% } else { %>
@@ -53,7 +54,7 @@
     <div class="footer-copyright text-center py-3">
         <p class="mb-0 mt-0"><a id="footer-campground-name" style="color: #124EC1" href="/">StaySeeker</a> ©2020</p>
         <p class="mb-0 mt-0">                
-                <strong style="font-size: 1vw">
+                <strong style="font-size: 1.5vw">
                     <span style="color: #124EC1">Created By:</span>
                     <span style="color: green ">Siddhant Dugar
                         <a href="https://www.linkedin.com/in/siddhantdugar/"><i class="fab fa-linkedin"></i></a>
