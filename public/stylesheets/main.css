@@ -9,6 +9,7 @@ html{
     height:100%;
     width:100%; 
 }
+
 body{
     
    
@@ -41,6 +42,27 @@ body{
     border-radius: .25rem;
     
 }
+
+.button_slide {
+    color: #FFF;
+    border: 2px solid rgb(216, 2, 134);
+    border-radius: 0px;
+    padding: 18px 36px;
+    display: inline-block;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #D80286;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+  }
+
+  .slide_right:hover {
+    box-shadow: inset 400px 0 0 0 #166ef1;
+  }
+
 
 .thumbnail .caption-full {
     padding: 9px;

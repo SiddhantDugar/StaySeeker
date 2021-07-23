@@ -6,13 +6,13 @@
              <h1>Welcome To StaySeeker!</h1>
              <p>View our hand-picked rentals and homestays from all over the world</p>
              <p>
-                <a class="btn btn-primary btn-large" href="/campgrounds/new">Add New Homestay</a>
+                <a class="btn button_slide slide_right" href="/campgrounds/new">Add New Homestay</a>
              </p>
              <p> 
                 <form action="/campgrounds" method="GET" class="form-inline">
                     <div class="form-group">
                         <input type="text" name="search" placeholder="Homestay search..." class="form-control">
-                        <input type="submit" value="Search" class="btn btn-default">
+                        <input type="submit" value="Search" class="btn button_slide slide_right">
                     </div>
                 </form>
             </p>
@@ -42,7 +42,7 @@
                         <% } %>
                     </div>
                    <p>
-                       <a href="/campgrounds/<%= campground._id %>" class="btn btn-primary">More Info</a>
+                       <a href="/campgrounds/<%= campground._id %>" class="btn button_slide slide_right">More Info</a>
                    </p>
                 </div>
             </div>
